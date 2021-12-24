@@ -66,12 +66,13 @@ String input;  // User input
 double cost = 15.00; // Cost of cake and cupcakes
 final double TAX_RATE = .08;  // Sales tax rate
 double tax; // Amount of tax
-
+ 
 
 // Introduce shop and prompt user to input first name
 
 System.out.println("Welcome to Java's Cake & Cupcake Shop!");
 System.out.println("We make custom cakes with our secret cake batter!");
+ 
 
 Step 3
 
@@ -85,16 +86,7 @@ System.out.print("\n"); // skips a line
     
     // STEP 4 DISPLAY MENU
 
-System.out.println("_______________________________________________");      
-System.out.println("        MENU         QUANTITY    BASE COST  ");
-System.out.println("_______________________________________________"); 
-System.out.println("        Cake                     1            $15     ");
-System.out.println("   Set of Cupcakes       6            $15     ");
-System.out.println("_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _");
-System.out.println("Frostings (vanilla, chocolate, strawberry, coco)");
-System.out.println("Fillings (mocha, mint, lemon, caramel, vanilla)");
-System.out.println("Toppings (sprinkles, cinnamon, cocoa, nuts)");
-System.out.println("_______________________________________________");
+	
       
 
     // TEST CODE     
