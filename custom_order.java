@@ -66,27 +66,12 @@ String input;  // User input
 double cost = 15.00; // Cost of cake and cupcakes
 final double TAX_RATE = .08;  // Sales tax rate
 double tax; // Amount of tax
-Add in the following comment and line of code to print friendly messages:
+
 
 // Introduce shop and prompt user to input first name
 
 System.out.println("Welcome to Java's Cake & Cupcake Shop!");
 System.out.println("We make custom cakes with our secret cake batter!");
-Before we test this code, remember to re-compile the java file
-javac custom_order.java
-Then run the file with this command:
-java custom_order
-
-If you see our friendly greeting in your terminal, add a comment to this issue.
-
-@powerdreams-1 powerdreams-1 commented 2 hours ago
-javac custom_order.java
-java custom_order
-
-@github-learning-lab github-learning-lab bot commented 2 hours ago
-Alright, next let's take in some user input using our scanner object (which we called "keyboard")
-
-The following code will ask the person what their name is, and create a personalized message for them to see the menu! The input entered in the terminal will be stored in the firstName variable.
 
 Step 3
 
@@ -100,7 +85,16 @@ System.out.print("\n"); // skips a line
     
     // STEP 4 DISPLAY MENU
 
-	
+System.out.println("_______________________________________________");      
+System.out.println("        MENU         QUANTITY    BASE COST  ");
+System.out.println("_______________________________________________"); 
+System.out.println("        Cake                     1            $15     ");
+System.out.println("   Set of Cupcakes       6            $15     ");
+System.out.println("_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _");
+System.out.println("Frostings (vanilla, chocolate, strawberry, coco)");
+System.out.println("Fillings (mocha, mint, lemon, caramel, vanilla)");
+System.out.println("Toppings (sprinkles, cinnamon, cocoa, nuts)");
+System.out.println("_______________________________________________");
       
 
     // TEST CODE     
