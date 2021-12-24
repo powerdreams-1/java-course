@@ -55,8 +55,11 @@ System.out.println("_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _");
 System.out.println("Frostings (vanilla, chocolate, strawberry, coco)");
 System.out.println("Fillings (mocha, mint, lemon, caramel, vanilla)");
 System.out.println("Toppings (sprinkles, cinnamon, cocoa, nuts)");
-System.out.println("_______________________________________________")    
+System.out.println("_______________________________________________")   
 
+
+System.out.println("Do you want CUPCAKES or a CAKE?");
+itemOrder = keyboard.nextLine();
 	  
 	  
     // TEST CODE
