@@ -35,6 +35,16 @@ System.out.println("Welcome to Java's Cake & Cupcake Shop!");
 System.out.println("We make custom cakes with our secret cake batter!");
 	 
     // Introduce shop and prompt user to input first name
+System.out.print("What is your first name? ");
+firstName = keyboard.nextLine();
+
+System.out.print(firstName + ", please see our MENU below: ");
+System.out.print("\n"); // skips a line
+System.out.print("What is your first name? ");
+firstName = keyboard.nextLine();
+
+System.out.print(firstName + ", please see our MENU below: ");
+System.out.print("\n"); // skips a line
       
 
 	  
