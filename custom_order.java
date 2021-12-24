@@ -7,13 +7,19 @@ public class custom_order {
     // STEP 1 PRINTING HELLO WORLD TO CONSOLE
     public static void main(String[] args) {
         
-      System.out.println("Hello World!"); // print Hello World to console
+     // System.out.println("Hello World!"); // print Hello World to console
         
+
     // TEST CODE
     
     // STEP 2 CREATE A SCANNER OBEJCT, DECLARE VARAIBLES, & PRINT STATEMENTS
 	  
+messages:
 
+// Introduce shop and prompt user to input first name
+
+System.out.println("Welcome to Java's Cake & Cupcake Shop!");
+System.out.println("We
 	 
     // Introduce shop and prompt user to input first name
       
