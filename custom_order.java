@@ -88,6 +88,8 @@ System.out.println("_______________________________________________");
     
     // STEP 5 PROMPT USER TO ORDER
 
+System.out.println("Do you want CUPCAKES or a CAKE?");
+itemOrder = keyboard.nextLine();
   
 	  
 	  
