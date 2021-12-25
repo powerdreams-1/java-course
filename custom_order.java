@@ -167,5 +167,11 @@ static void addItem(String item, int cost) {
   totalCost+=cost;
   addOnList+=item;
 }
+
+
+if (frostingType != "no"){
+  addItem(frostingType,2);
+  addOnList+=", ";
+}
  }   
 }
