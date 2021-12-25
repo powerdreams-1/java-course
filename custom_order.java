@@ -88,7 +88,7 @@ System.out.println("_______________________________________________");
     
     // STEP 5 PROMPT USER TO ORDER
 
-System.out.println("Do you want CUPCAKES or a CAKE?");
+(System.out.println("Do you want CUPCAKES or a CAKE?");
 itemOrder = keyboard.nextLine();
   
 	  
@@ -99,7 +99,11 @@ itemOrder = keyboard.nextLine();
       
     // STEP 6 PROMPT USER TO CHOOSE FROSTING
 
-   
+ 
+
+System.out.println("What type of FROSTING do you want? ");
+System.out.println("Vanilla, Chocolate, Strawberry or Coco");
+frostingType = keyboard.nextLine();
 	 
 	 
 	 
