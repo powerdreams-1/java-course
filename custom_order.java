@@ -112,7 +112,9 @@ frostingType = keyboard.nextLine();
       
     // STEP 7 PROMPT USER TO CHOOSE FILLING
 
-
+System.out.println("What type of FILLING do you want? ");
+System.out.println("Mocha, Mint, Lemon, Caramel or Raspberry");
+fillingType = keyboard.nextLine();
 	  
 	  
       
