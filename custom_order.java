@@ -157,6 +157,7 @@ tax = cost * TAX_RATE;
 System.out.printf("The tax is: $%.2f\n", tax);
 System.out.printf("The total due is: $%.2f\n",(tax + cost))
 
+ // step 11 Declair a "totalCost" variable, and a "addOnList" variable
    variable
 int totalCost;
 String addOnList
