@@ -14,8 +14,6 @@ public class custom_order {
     
     // STEP 2 CREATE A SCANNER OBEJCT, DECLARE VARAIBLES, & PRINT STATEMENTS
 	  
-messages:
-
 
 Scanner keyboard = new Scanner (System.in); 
 
@@ -40,19 +38,6 @@ System.out.println("We make custom cakes with our secret cake batter!");
     // TEST CODE
     
     // STEP 3 INPUT YOUR NAME AND PREPARE TO VIEW MENU
-   
-	lab bot opened this issue 2 hours ago · 2 comments
-Comments
-@github-learning-lab github-learning-lab bot commented 2 hours ago
-Variables
-In this section, you will create a scanner object to take in user input, declare variables that will store information, and print out a friendly message!
-
-You can comment out our 'Hello world' statement by adding // to the start of that line:
-
-// System.out.println("Hello World!");
-Type the following code under Step 2. It will create your scanner object, create your string variables that store text information, and double variables that store numeric values. Most of these variables don't have any values yet (except "cost" and "TAX_RATE"). We are just declairing their name and data type.
-
-The Scanner object has pre-built methods we will use to process user input. Notice how we imported it at the top of the file?
 
 Scanner keyboard = new Scanner (System.in); 
 
