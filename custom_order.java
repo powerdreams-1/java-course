@@ -161,5 +161,11 @@ System.out.printf("The total due is: $%.2f\n",(tax + cost))
    variable
 int totalCost;
 String addOnList
+
+
+static void addItem(String item, int cost) {
+  totalCost+=cost;
+  addOnList+=item;
+}
  }   
 }
